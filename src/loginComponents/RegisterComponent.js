@@ -2,7 +2,7 @@ import React from 'react';
 import backgroundimg from '..//backgroundimg.jpg'; // Check the correct path
 import '../css/login.css'; // Check the correct path for CSS file
 
-function RegisterComponent() {
+const RegisterComponent = () => {
     return (
         <div className="App">
             <div className="login">
