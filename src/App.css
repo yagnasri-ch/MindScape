@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+  background-image: url(./homeImage.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-attachment: fixed;
 }
 
 .App-logo {
@@ -27,6 +35,21 @@
 .App-link {
   color: #61dafb;
 }
+
+.App-Main {
+  color: black;
+}
+ .App-Main h1 {
+  font-size: 300%;
+  text-align: right;
+  padding-right: 5%;
+ }
+
+ .App-Main p {
+  font-size: 150%;
+  text-align: right;
+  padding-right: 10%;
+ }
 
 @keyframes App-logo-spin {
   from {

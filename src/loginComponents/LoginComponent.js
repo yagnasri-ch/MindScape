@@ -1,12 +1,9 @@
-import backgroundimg from '..//backgroundimg.jpg';
 import styles from '../css/login.css';
 import React from 'react';
 
 const LoginComponent = () => {
     return (
-
             <div className="login">
-                <img src={backgroundimg} alt="login image" className="login__img"/>
                 <form action="" className="login__form">
                     <h1 className="login__title">Login</h1>
                     <div className="login__content">

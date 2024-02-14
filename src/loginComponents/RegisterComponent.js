@@ -1,12 +1,9 @@
 import React from 'react';
-import backgroundimg from '..//backgroundimg.jpg'; // Check the correct path
 import '../css/login.css'; // Check the correct path for CSS file
 
 const RegisterComponent = () => {
     return (
-        <div className="App">
             <div className="login">
-                <img src={backgroundimg} alt="login image" className="login__img"/>
                 <form action="" className="login__form">
                     <h1 className="login__title">Register</h1>
                     <div className="login__content">
@@ -35,7 +32,6 @@ const RegisterComponent = () => {
                     <button type="submit" className="login__button">Register</button>
                 </form>
             </div>
-        </div>
     );
 }
 

@@ -50,7 +50,7 @@ img {
 }
 /*==============NAV BAR ==============*/
 .navbar {
-  background-color: white;
+  /*background-color: white;*/
   color: black;
   display: flex;
   justify-content: space-between;
@@ -59,12 +59,14 @@ img {
 }
 
 .navbar-logo img {
-  width: 40px;
-  height: 40px;
+  width: 212px;
+  height: 190px;
 }
 .navbar-head{
-  color:#00a2ff;
-  font-size: 50px;
+  color:w;
+  font-size: 100px;
+  text-align: center;
+  padding-right: 10%;
 
 }
 
