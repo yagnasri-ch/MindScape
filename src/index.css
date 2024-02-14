@@ -73,12 +73,13 @@ img {
 .navbar-links {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding-right: 10%;
 }
 
 .navbar-links li {
   display: inline;
   margin-right: 10px;
+  padding: 10px;
 }
 
 .navbar-links li:last-child {
