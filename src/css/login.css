@@ -3,7 +3,7 @@
     position: relative;
     height: 70vh;
     display: grid;
-    align-items: center;
+    padding-right: 30px;
  
     &__img{
        position: absolute;
