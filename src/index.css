@@ -50,7 +50,7 @@ img {
 }
 /*==============NAV BAR ==============*/
 .navbar {
-  background-color: white;
+  /*background-color: white;*/
   color: black;
   display: flex;
   justify-content: space-between;
@@ -59,24 +59,27 @@ img {
 }
 
 .navbar-logo img {
-  width: 40px;
-  height: 40px;
+  width: 212px;
+  height: 190px;
 }
 .navbar-head{
-  color:#00a2ff;
-  font-size: 50px;
+  color:w;
+  font-size: 100px;
+  text-align: center;
+  padding-left: 115px;
 
 }
 
 .navbar-links {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding-right: 10%;
 }
 
 .navbar-links li {
   display: inline;
   margin-right: 10px;
+  padding: 10px;
 }
 
 .navbar-links li:last-child {
@@ -226,7 +229,7 @@ img {
 /* For medium devices */
 @media screen and (min-width: 576px) {
   .login {
-    justify-content: center;
+    justify-content: right;
   }
   .login__form {
     width: 432px;
