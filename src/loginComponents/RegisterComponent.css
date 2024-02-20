@@ -17,7 +17,7 @@
     backdrop-filter: blur(8px);
 }
 .register__title {
-    padding-top: 21px;
+    padding-top: 5px;
     text-align: center;
     font-size: var(--h1-font-size);
     font-weight: var(--font-medium);
@@ -92,6 +92,7 @@
 }
 .register__button {
     width: 100%;
+    padding-top: 20px;
     padding: 1rem;
     border-radius: 0.5rem;
     background-color: var(--white-color);

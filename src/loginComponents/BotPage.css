@@ -1,3 +1,20 @@
+.bot_Main{
+
+        color: black;
+    }
+    .bot_Main h1 {
+        font-size: 300%;
+        text-align: right;
+        padding-right: 5%;
+
+    }
+
+    .bot_Main p {
+        font-size: 200%;
+        text-align: center;
+        padding-left: 33%;
+    }
+
 
 
 .navbar {
@@ -45,5 +62,7 @@
 .navbar-links a:hover {
     text-decoration: underline;
 }
+
+
 
 

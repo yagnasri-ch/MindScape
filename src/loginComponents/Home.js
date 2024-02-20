@@ -1,11 +1,11 @@
-import React  from 'react';
-import '../css/login.css'; // Correct the path for CSS file
+import React from 'react';
+import '../loginComponents/Home.css'; // Correct the path for CSS file
 import logo from '../MS.png';
 import { Link, Outlet } from 'react-router-dom';
 
 const Home = () => {
     return (
-        <div className="HomePage">
+        <div>
             <nav className="navbar">
                 <div className="navbar-logo">
                     <img src={logo} alt="Logo"/>
@@ -21,7 +21,7 @@ const Home = () => {
             </nav>
             <Outlet />
         </div>
-      );
+    );
 }
- 
+
 export default Home;
