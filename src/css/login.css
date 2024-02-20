@@ -1,10 +1,10 @@
 /*=============== LOGIN ===============*/
 .login{
     position: relative;
-    height: 70vh;
+    height: 50vh;
     display: grid;
     padding-right: 30px;
- 
+
     &__img{
        position: absolute;
        width: 100%;
@@ -96,7 +96,7 @@
     }
     &__forgot{
        color: var(--white-color);
- 
+
        &:hover{
           text-decoration: underline;
        }
@@ -112,24 +112,24 @@
     }
     &__register{
        text-align: center;
- 
+
        & a{
           color: var(--white-color);
           font-weight: var(--font-medium);
- 
+
           &:hover{
              text-decoration: underline;
           }
        }
     }
  }
- 
+
  /* Input focus move up label */
  .login__input:focus + .login__label{
     top: -12px;
     font-size: var(--small-font-size);
  }
- 
+
  /* Input focus sticky top label */
  .login__input:not(:placeholder-shown).login__input:not(:focus) + .login__label{
     top: -12px;

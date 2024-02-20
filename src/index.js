@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import app from "./App";
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+var cors = require('cors')
+
 root.render(
   <React.StrictMode>
     <App />
+      app.use(cors())
   </React.StrictMode>
 );
 
