@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from '../loginComponents/LoginComponent.css';
 import { Link } from 'react-router-dom';
-import axios from 'axios';
+/*import axios from 'axios';*/
 import {useState } from "react";
 
-async function save(email1, password1)
+/*async function save(email1, password1)
 {
     try
     {
@@ -21,7 +21,7 @@ async function save(email1, password1)
     catch(err)
     {
     }
-}
+}*/
 
 const LoginComponent = () => {
     const [email, setEmail] = useState("");
@@ -65,7 +65,7 @@ const LoginComponent = () => {
             </div>
             <button className="login__button" onClick={
                 ()=>{
-                    save(email, password).then(r => {}) }}
+                    /*save(email, password).then(r => {})*/ }}
             >Login</button>
         </form>
     </div>;
