@@ -7,7 +7,7 @@ import axios from 'axios';
 const BotPage = () => {
     const fetchData = async () => {
         try{
-            const response = await axios("http://localhost:8080/users");
+            const response = await axios.get("http://localhost:8080/users");
             console.log(response);
         }
         catch(error)
@@ -15,8 +15,7 @@ const BotPage = () => {
             console.log(error.response);
         }
     };
-  //  fetchData();
-    //useEffect(() => { fetchData(); }, []);
+    useEffect(() => { fetchData(); }, []);
 
     return (
         <div>
