@@ -1,10 +1,22 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../loginComponents/BotPage.css';
 import logo from '../MS.png';
 import {Link, Outlet} from "react-router-dom";
-
+import axios from 'axios';
 
 const BotPage = () => {
+    const fetchData = async () => {
+        try{
+            const response = await axios.get("http://localhost:8080/users");
+            console.log(response);
+        }
+        catch(error)
+        {
+            console.log(error.response);
+        }
+    };
+    useEffect(() => { fetchData(); }, []);
+
     return (
         <div>
             <nav className="navbar">
@@ -23,7 +35,6 @@ const BotPage = () => {
 
         </div>
 
-    )
-        ;
+    );
 }
 export default BotPage;
