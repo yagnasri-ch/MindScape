@@ -45,5 +45,17 @@
 .navbar-links a:hover {
     text-decoration: underline;
 }
+.multicolor-text {
+    text-align: center;
+    font-size: 50px;
+    background: linear-gradient(to left,
+    #DCF2F1,
+    #0454ac,
+    #365486,
+    #0F1035);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
 
 

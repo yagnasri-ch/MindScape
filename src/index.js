@@ -11,7 +11,7 @@ var cors = require('cors')
 root.render(
   <React.StrictMode>
     <App />
-      app.use(cors())
+      {/*app.use(cors())*/}
   </React.StrictMode>
 );
 

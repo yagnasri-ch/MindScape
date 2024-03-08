@@ -10,7 +10,7 @@ const Home = () => {
                 <div className="navbar-logo">
                     <img src={logo} alt="Logo"/>
                 </div>
-                <div className="navbar-head">
+                <div className="navbar-head multicolor-text">
                     MindScape
                 </div>
                 <ul className="navbar-links">
