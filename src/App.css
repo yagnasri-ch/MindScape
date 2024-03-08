@@ -8,31 +8,12 @@
     display: flex;
     flex-direction: column;
     background-attachment: fixed;
-    width: 100%;
 }
 
 .App-logo {
     height: 40vmin;
     pointer-events: none;
 }
-/* For screens smaller than 768px */
-@media (max-width: 768px) {
-    .App {
-        text-align: center;
-        /* Add your styles here for smaller screens */
-    }
-}
-
-/* For screens larger than 768px */
-@media (min-width: 769px) {
-    .App {
-        text-align: center;
-        /* Add your styles here for larger screens */
-    }
-}
-
-
-
 
 .App-header {
     background-color: #282c34;

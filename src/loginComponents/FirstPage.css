@@ -1,90 +1,90 @@
-.App {
-    text-align: center;
-    background-image: url(./homeImage.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    background-attachment: fixed;
-}
-@keyframes colorChange {
-    0% {
-        color: white; /* Start color */
-    }
-    25% {
-        color: green; /* Start color */
-    }
-    50% {
-        color: blue; /* Start color */
-    }
-    75% {
-        color: black; /* Midway color */
-    }
-    100% {
-        color: gray; /* End color */
-    }
-}
+/*.App {*/
+/*    text-align: center;*/
+/*    background-image: url(./homeImage.jpg);*/
+/*    background-size: cover;*/
+/*    background-position: center;*/
+/*    background-repeat: no-repeat;*/
+/*    height: 100vh;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    background-attachment: fixed;*/
+/*}*/
+/*@keyframes colorChange {*/
+/*    0% {*/
+/*        color: white; !* Start color *!*/
+/*    }*/
+/*    25% {*/
+/*        color: green; !* Start color *!*/
+/*    }*/
+/*    50% {*/
+/*        color: blue; !* Start color *!*/
+/*    }*/
+/*    75% {*/
+/*        color: black; !* Midway color *!*/
+/*    }*/
+/*    100% {*/
+/*        color: gray; !* End color *!*/
+/*    }*/
+/*}*/
 
-.welcom h1 {
-    animation: colorChange 6s infinite; /* Apply the animation */
-    font-family: "Baskerville Old Face";
-    /*float: right;*/
+/*.welcom h1 {*/
+/*    animation: colorChange 6s infinite; !* Apply the animation *!*/
+/*    font-family: "Baskerville Old Face";*/
+/*    !*float: right;*!*/
 
-}
+/*}*/
 
-.First-Main {
-    color: black;
-}
-.First-Main h1 {
-    font-size: 300%;
-    text-align: right;
-    padding-right: 5%;
-}
+/*.First-Main {*/
+/*    color: black;*/
+/*}*/
+/*.First-Main h1 {*/
+/*    font-size: 300%;*/
+/*    text-align: right;*/
+/*    padding-right: 5%;*/
+/*}*/
 
-.First-Main p {
-    font-size: 200%;
-    text-align: right;
-    padding-right: 5%;
-}
-.text-container {
-    position: relative;
-    float: right;
-    width: 50%;
-    height: 50px;
-    font-size: 30px;
-    font-family: "Baskerville Old Face";
-    color: #0F1035;
-}
+/*.First-Main p {*/
+/*    font-size: 200%;*/
+/*    text-align: right;*/
+/*    padding-right: 5%;*/
+/*}*/
+/*.text-container {*/
+/*    position: relative;*/
+/*    float: right;*/
+/*    width: 50%;*/
+/*    height: 50px;*/
+/*    font-size: 30px;*/
+/*    font-family: "Baskerville Old Face";*/
+/*    color: #0F1035;*/
+/*}*/
 
-.arrow {
-    background: none;
-    border: none;
-    font-size: 20px;
-    cursor: pointer;
-    outline: none;
-    position: fixed;
-    top: 50%;
-    transform: translateY(-50%);
-}
+/*.arrow {*/
+/*    background: none;*/
+/*    border: none;*/
+/*    font-size: 20px;*/
+/*    cursor: pointer;*/
+/*    outline: none;*/
+/*    position: fixed;*/
+/*    top: 50%;*/
+/*    transform: translateY(-50%);*/
+/*}*/
 
-.left-arrow {
-    left: 20px;
-    font-size: 35px;
-}
+/*.left-arrow {*/
+/*    left: 20px;*/
+/*    font-size: 35px;*/
+/*}*/
 
-.right-arrow {
-    right: 20px;
-    font-size: 35px;
-}
+/*.right-arrow {*/
+/*    right: 20px;*/
+/*    font-size: 35px;*/
+/*}*/
 
-.text {
-    margin: 0 20px;
-}
-.welcom{
+/*.text {*/
+/*    margin: 0 20px;*/
+/*}*/
+/*.welcom{*/
 
-    float: right ;
-    margin-right: 30px;
-}
+/*    float: right ;*/
+/*    margin-right: 30px;*/
+/*}*/
 
