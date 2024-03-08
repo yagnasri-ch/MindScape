@@ -1,0 +1,43 @@
+.App {
+    text-align: center;
+    background-image: url(./homeImage.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-attachment: fixed;
+}
+@keyframes colorChange {
+    0% {
+        color: white; /* Start color */
+    }
+    25% {
+        color: green; /* Start color */
+    }
+    50% {
+        color: blue; /* Start color */
+    }
+    75% {
+        color: black; /* Midway color */
+    }
+    100% {
+        color: gray; /* End color */
+    }
+}
+
+.welcome h1 {
+    animation: colorChange 6s infinite; /* Apply the animation */
+    font-family: "Baskerville Old Face";
+    float: right;
+    padding-top: 40px;
+    margin-right: 100px;
+
+}
+
+.text {
+    margin: 0 20px;
+}
+
+
